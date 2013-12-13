@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;DBHelper.java&apos; to &apos;Clase17SearchView/src/com.udb.modulo2.clase17&apos;&#x0A;- Original project: &apos;Clase17SearchView&apos;&#x0A;- Destination element: &apos;Clase17SearchView/src/com.udb.modulo2.clase17&apos;&#x0A;- Original element: &apos;DBHelper.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.udb.modulo2.clase17" element1="/src&lt;{DBHelper.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1386078035831" units="1" version="1.0"/>
+</session>

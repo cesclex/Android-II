@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase07 IntentService</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnstart">Iniciar Proceso</string>
+    <string name="title_activity_show_bitmap">Muestra Imagen</string>
+    <string name="descimg">Descripcion de Imagen</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase04 Threads</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lbltext1">Ejemplo de notificaciones desde un hilo</string>
+    <string name="descimg">Icono de Notificacion</string>
+    <string name="btnstop">Parar</string>
+    <string name="btnStass">Iniciar</string>
+</resources>

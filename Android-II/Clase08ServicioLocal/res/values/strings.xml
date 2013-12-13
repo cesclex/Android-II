@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase08 Service</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lblbtnstart">Iniciar Service</string>
+    <string name="lblstopservice">Detener Servicio</string>
+</resources>

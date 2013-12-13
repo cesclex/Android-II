@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase32 Bluetooth</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_paired">Buscar Paired Devices</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnturnon">Turn On</string>
+    <string name="btndisco">Discoverable</string>
+    <string name="btnturnoff">Turn Off</string>
+
+</resources>

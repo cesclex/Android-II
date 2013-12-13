@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Clase12 Widget Call Activity</string>
+    <string name="descbtn">Activar Accion</string>
+    <string name="lblwidget">My Widget INC.</string>
+    <string name="title_activity_response_widget">ResponseWidgetActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

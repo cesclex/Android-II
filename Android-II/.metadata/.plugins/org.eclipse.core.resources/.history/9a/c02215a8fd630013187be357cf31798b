@@ -1,0 +1,126 @@
+package com.udb.modulo2.clase38;
+
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.StatusLine;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.json.JSONObject;
+
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.app.Activity;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.Toast;
+import android.support.v4.app.NavUtils;
+import android.annotation.TargetApi;
+import android.os.Build;
+
+public class DetailActivity extends Activity {
+	EditText edtDiscountCode, edtRate;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_detail);
+		// Show the Up button in the action bar.
+		setupActionBar();
+		edtDiscountCode = (EditText) findViewById(R.id.editText1);
+		edtRate = (EditText) findViewById(R.id.editText2);
+	}
+
+	/**
+	 * Set up the {@link android.app.ActionBar}, if the API is available.
+	 */
+	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
+	private void setupActionBar() {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+			getActionBar().setDisplayHomeAsUpEnabled(true);
+		}
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.detail, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case android.R.id.home:
+			// This ID represents the Home or Up button. In the case of this
+			// activity, the Up button is shown. Use NavUtils to allow users
+			// to navigate up one level in the application structure. For
+			// more details, see the Navigation pattern on Android Design:
+			//
+			// http://developer.android.com/design/patterns/navigation.html#up-vs-back
+			//
+			NavUtils.navigateUpFromSameTask(this);
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+	private class RestTask extends AsyncTask<Void, Void, String> {
+
+		protected void onPostExecute(String string) {
+			Log.d(MainActivity.class.toString(),"RESPONSE: "+string);
+			Toast.makeText(getApplicationContext(), "Guardado", Toast.LENGTH_SHORT).show();
+			finish();
+		}
+
+		@Override
+		protected String doInBackground(Void... params) {
+			// TODO Auto-generated method stub
+			return readFeed();
+		}
+
+		public String readFeed() {
+			StringBuilder builder = new StringBuilder();
+
+			try {
+			   
+			    JSONObject holder = new JSONObject();
+			    holder.put("discountCode", edtDiscountCode.getText().toString());
+			    holder.put("rate", edtRate.getText().toString());
+			   
+			    Log.d(MainActivity.class.toString(),"POST: "+holder.toString());
+			    
+				HttpResponse response = makeRequest("http://192.168.1.105:8080/RestAndroid/webresources/com.udb.modulo2.entities.discountcode", holder.toString());
+				StatusLine statusLine = response.getStatusLine();
+				int statusCode = statusLine.getStatusCode();
+				Log.d(MainActivity.class.toString(),"POST STATUS: "+statusCode);
+
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			return builder.toString();
+		}
+		
+		public HttpResponse makeRequest(String uri, String json) {
+		    try {
+		        HttpPost httpPost = new HttpPost(uri);
+		        httpPost.setEntity(new StringEntity(json));
+		        httpPost.setHeader("Accept", "application/json");
+		        httpPost.setHeader("Content-type", "application/json");
+		        return new DefaultHttpClient().execute(httpPost);
+		    } catch (UnsupportedEncodingException e) {
+		        e.printStackTrace();
+		    } catch (ClientProtocolException e) {
+		        e.printStackTrace();
+		    } catch (IOException e) {
+		        e.printStackTrace();
+		    }
+		    return null;
+		}
+		
+	}
+
+}

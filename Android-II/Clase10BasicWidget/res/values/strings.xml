@@ -1,0 +1,6 @@
+<resources>
+
+   <string name="app_name">Clase10 Basic Widget</string>
+
+    <string name="lblwidget_txt">Widget Texto Basico</string>
+</resources>

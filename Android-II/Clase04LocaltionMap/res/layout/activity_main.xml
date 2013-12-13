@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LocationMapActivity" >
+
+    <TextView
+        android:id="@+id/txtMyLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<fragment
+  android:id="@+id/map"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  class="com.google.android.gms.maps.SupportMapFragment"/>
+</LinearLayout>

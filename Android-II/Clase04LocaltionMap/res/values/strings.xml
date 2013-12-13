@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ <string name="app_name">Clase03 Locations Maps</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lblchgcolorcircle">Color Circulo</string>
+    <string name="lblchangestroke">Ancho de Linea</string>
+    <string name="lblchgradius">Radio</string>
+	<string name="btnok">Aceptar</string>
+    <string name="btncancel">Cancelar</string>
+    <string name="lbltitleoptions">Opciones Circulo</string>
+
+</resources>

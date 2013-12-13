@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Clase11 Widget</string>
+
+    <string name="lblchange">Cambiar</string>
+
+    <string name="dscimage">Imagen Descripcion</string>
+
+</resources>

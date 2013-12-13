@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clase33 WIFI State</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tglwifion">WIFI ON</string>
+    <string name="tglwifioff">WIFI OFF</string>
+
+</resources>
