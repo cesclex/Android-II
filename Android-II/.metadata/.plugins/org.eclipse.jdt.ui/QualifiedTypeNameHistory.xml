@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="android.media.MediaPlayer"/>
-<fullyQualifiedTypeName name="android.app.ProgressDialog"/>
-<fullyQualifiedTypeName name="android.media.MediaPlayer.OnPreparedListener"/>
-<fullyQualifiedTypeName name="android.media.AudioManager"/>
-<fullyQualifiedTypeName name="android.widget.VideoView"/>
-<fullyQualifiedTypeName name="android.widget.MediaController"/>
-<fullyQualifiedTypeName name="android.graphics.Paint"/>
-<fullyQualifiedTypeName name="android.graphics.Color"/>
-<fullyQualifiedTypeName name="android.graphics.Canvas"/>
-<fullyQualifiedTypeName name="android.view.animation.Animation.AnimationListener"/>
-<fullyQualifiedTypeName name="android.view.animation.Animation"/>
-<fullyQualifiedTypeName name="android.view.animation.AnimationUtils"/>
 <fullyQualifiedTypeName name="android.widget.ImageView"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="android.bluetooth.BluetoothAdapter"/>
 <fullyQualifiedTypeName name="android.support.v7.app.ActionBarActivity"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="android.bluetooth.BluetoothDevice"/>
-<fullyQualifiedTypeName name="android.view.MenuItem"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.widget.ToggleButton"/>
 <fullyQualifiedTypeName name="android.os.Handler"/>
 <fullyQualifiedTypeName name="android.content.IntentFilter"/>
 <fullyQualifiedTypeName name="android.content.BroadcastReceiver"/>
-<fullyQualifiedTypeName name="android.content.Intent"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="android.net.wifi.ScanResult"/>
 <fullyQualifiedTypeName name="android.net.wifi.WifiManager"/>
@@ -35,7 +21,6 @@
 <fullyQualifiedTypeName name="android.net.wifi.WifiConfiguration"/>
 <fullyQualifiedTypeName name="android.net.wifi.WifiConfiguration.AuthAlgorithm"/>
 <fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
-<fullyQualifiedTypeName name="android.widget.ListView"/>
 <fullyQualifiedTypeName name="org.json.JSONArray"/>
 <fullyQualifiedTypeName name="org.apache.http.client.HttpClient"/>
 <fullyQualifiedTypeName name="org.apache.http.client.methods.HttpGet"/>
@@ -43,9 +28,7 @@
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-<fullyQualifiedTypeName name="android.widget.EditText"/>
 <fullyQualifiedTypeName name="android.os.AsyncTask"/>
-<fullyQualifiedTypeName name="android.widget.Toast"/>
 <fullyQualifiedTypeName name="android.util.Log"/>
 <fullyQualifiedTypeName name="org.json.JSONObject"/>
 <fullyQualifiedTypeName name="org.apache.http.HttpResponse"/>
@@ -58,6 +41,23 @@
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="com.udb.modulo2.clase38.DetailActivity.RestTask"/>
 <fullyQualifiedTypeName name="com.udb.modulo2.clase38.DetailActivity"/>
-<fullyQualifiedTypeName name="android.view.View"/>
 <fullyQualifiedTypeName name="com.udb.modulo2.clase38.MainActivity.RestTask"/>
+<fullyQualifiedTypeName name="org.ksoap2.serialization.SoapObject"/>
+<fullyQualifiedTypeName name="org.ksoap2.serialization.PropertyInfo"/>
+<fullyQualifiedTypeName name="org.ksoap2.serialization.SoapSerializationEnvelope"/>
+<fullyQualifiedTypeName name="org.ksoap2.SoapEnvelope"/>
+<fullyQualifiedTypeName name="org.ksoap2.transport.HttpTransportSE"/>
+<fullyQualifiedTypeName name="org.ksoap2.serialization.SoapPrimitive"/>
+<fullyQualifiedTypeName name="android.widget.ListView"/>
+<fullyQualifiedTypeName name="android.database.Cursor"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.view.MenuItem"/>
+<fullyQualifiedTypeName name="android.support.v4.widget.SimpleCursorAdapter"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.net.Uri"/>
+<fullyQualifiedTypeName name="android.content.ContentValues"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="android.provider.UserDictionary"/>
+<fullyQualifiedTypeName name="android.provider.UserDictionary.Words"/>
 </qualifiedTypeNameHistroy>

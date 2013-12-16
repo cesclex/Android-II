@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string name="app_name">Clase40 SOAP</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hitname">Ingrese un Nombre</string>
+    <string name="btnsend">Enviar</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">Clase41 Content Provider</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="hitword">Digite una Palabra</string>
+    <string name="btnsave">Guardar</string>
+    <string name="lblnew">Nuevo</string>
+
+</resources>

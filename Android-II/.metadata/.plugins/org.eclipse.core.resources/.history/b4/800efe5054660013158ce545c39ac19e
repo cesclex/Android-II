@@ -1,0 +1,28 @@
+package com.udb.modulo2.clase40;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+	private final String NAMESPACE = "http://service.modulo2.udb.com/";
+	private final String URL = "http://192.168.1.102:8080/SOAPAndroid/AndroidWS?WSDL";
+	private final String SOAP_ACTION = "http://service.modulo2.udb.com/hello";
+	private final String METHOD_NAME = "hello";
+	
+	private EditText edtName;
+	private TextView txtResponse;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}
